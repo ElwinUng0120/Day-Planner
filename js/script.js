@@ -25,6 +25,8 @@ function saveToLocal(event){
     }
     //Updating the description in localStorage
     localStorage.descriptList = JSON.stringify(descriptList);
+    alert("Saved!");
+
 }
 
 //Load description
@@ -52,7 +54,7 @@ function makeTable(){
             <div class="input-group-prepend time-block">
                 <label class="input-group-text">${tableTime}${tableTime2}</label>
             </div>
-            <textarea class="form-control description ${color}" id="slot${index}"></textarea>
+            <textarea class="form-control text-dark font-weight-bold description ${color}" id="slot${index}"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" value="${index}"><i class="fas fa-calendar-plus fa-lg"></i></button>
             </div>
