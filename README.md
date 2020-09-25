@@ -17,7 +17,7 @@ This project contains the following:
 <br>
 
 This project is built using: **HTML5**, **CSS**, **Bootstrap**, **Javascript**, **jQuery** and **moment.js**.
-This project is currently hosted on Github Pages:
+This project is currently hosted on Github Pages: https://elwinung0120.github.io/Day-Planner/
 
 ## script.js
 - Insert a clock displaying current time on load using **moment.js**
